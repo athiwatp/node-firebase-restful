@@ -24,11 +24,11 @@ var port = process.env.PORT || 6969;
 
 // firebase setup
 firebase.initializeApp({
-	databaseURL: "https://nodeandfirebasetest.firebaseio.com/",
-	serviceAccount: "service_account.json"
+	databaseURL: "https://account-963c0.firebaseio.com/",
+	apiKey:"AIzaSyBk-UNPVenINFK-x-rwksiSwiQFiQTfkDE"
 });
 var db = firebase.database();
-var usersRef = db.ref("users");
+var usersRef = db.ref("account");
 
 
 // CONFIGURE APP
